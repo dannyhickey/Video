@@ -3,11 +3,19 @@
 <head>
 
 <style>
-#inner 
+#container 
 {
-	padding-top: 10%;
-    width: 50%;
+	
+    width: 500px;
     margin: 0 auto; 
+}
+
+#iFrameContain
+{
+	margin: 0 auto;
+    width: 500px;
+    height: 500px;
+
 }
 
 </style>
@@ -15,12 +23,9 @@
 <title>Untitled Document</title>
 </head>
 
-<body>
-
-	<div id="outer" >
-		<div id="inner">
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/tGDAeCSPGCk" frameborder="0" allowfullscreen></iframe>
-		</div>
+<body>	
+	<div id="container">
+		<iframe id="iFrameContain" src="https://www.youtube.com/embed/tGDAeCSPGCk" frameborder="0"></iframe>
 	</div>
 </body>
 </html>
